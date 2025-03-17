@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body {
+    background-color: #f6f6f9;
+    color: 363949;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    background-color: #eee;
+    border-radius: 30px 30px 30px 30px;
+}
+.card {
+    border-radius: 15px;
+    margin: 10px;
+    flex: 1; /* Membuat card fleksibel */
+    min-width: 200px; /* Menetapkan lebar minimum untuk mencegah card menjadi terlalu kecil */
+    border: none !important;
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); */
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress-bar-custom {
+    background-color: #2F2F2F;
+}
+.icon {
+    font-size: 20px;
+}
+.row {
+    display: flex;
+    justify-content: space-around; /* Memberikan jarak antara card */
+}
+.modal-header, .close {
+    background-color: #ffffff;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+.btn-cstm {
+    background-color: #4691DB;
+}
+.bg-cstm-cart {
+    background-color: #f6f6f9;
+}
+.btn-danger-cstm {
+    background-color: #DF4957;
+}
